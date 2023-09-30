@@ -27,7 +27,7 @@
           <!-- Add the links for Skills, Projects and Recommendation here -->
           <a class="topmenu" href="#skills">Skills</a>
           <a class="topmenu" href="#projects">Projects</a>
-          <a class="topmenu" href="#recommendation">Recommendation</a>
+          <a class="topmenu" href="#recommendations">Recommendation</a>
         </div>
       </div>    
     </nav>
@@ -54,27 +54,47 @@
       <h2>Skills</h2>
       <div style="clear:both;"></div>
 
+        <!-- Add more skills here -->
+            <!-- Skills -->
       <div class="all_skills">
         <div class="skill">
-          <img src="html_finalprojimages/html5.png"/>
+          <img src="html_finalprojimages/html5.png" alt="HTML5"/>
           <h6>HTML</h6>
           <p>2 years experience</p>
-        </div>  
-
+        </div>
         <div class="skill">
-          <img src="html_finalprojimages/js.jpeg"/>
+          <img src="html_finalprojimages/js.jpeg" alt="JavaScript"/>
           <h6>JavaScript</h6>
           <p>3 years experience</p>
-        </div>  
-
-        <!-- Add more skills here -->
-
-
+        </div>
+    
+        <div class="skill">
+          <img src="html_finalprojimages/node.png" alt="Node.js"/>
+          <h6>Node.js</h6>
+          <p>2 years experience</p>
+        </div>
+    
+        <div class="skill">
+          <img src="html_finalprojimages/flask.png" alt="flask"/>
+          <h6>Flask</h6>
+          <p>3 years experience</p>
+        </div>
+        <div class="all_skills">
+          <div class="skill">
+            <img src="html_finalprojimages/java.png" alt="java"/>
+            <h6>Java</h6>
+            <p>2 years experience</p>
+          </div>
+          <div class="skill">
+            <img src="html_finalprojimages/react.png" alt="react"/>
+            <h6>React</h6>
+            <p>3 years experience</p>
+          </div>
       </div>
     </section>
           
     <!-- Projects -->
-    <section class="projects" id="projects">
+    <section class="project-card" id="projects">
       <h2>
         Projects
       </h2>
@@ -82,23 +102,25 @@
 
         <div id="projects-container" class="projects-container">
           <div class="project-card">
-            <h3>Chatbot</h3>
+            <h3>Magic Kitchen</h3>
             <ul>
-              <li>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript and IBM Watson Assistant</li>
+              <li>Developed a full-stack web application that allows users to search for recipes based on limited ingredients and create grocery shopping lists.
+                Utilized Python3, Flask framework, SQLAlchemy ORM, and Postgresql database for the backen d, and HTML, CSS, JavaScript, AJAX, JSON, Jinja2, and Bootstrap5 for the frontend.
+                </li>
             </ul>
           </div>
           <hr>
           <div class="project-card">
-            <h3>Sentiment Analyzer</h3>
+            <h3>WordUp</h3>
             <ul>
-              <li>Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform using IBM NLU</li>
+              <li>Full stack application that helps users learn new words faster and easier. Tech Stack: Python, JavaScript, React, PostgreSQL, Flask, Jinja, SQLAlchemy, Fetch API, HTML, CSS</li>
             </ul>
           </div>
           <hr>
           <div class="project-card">
-            <h3>Fashion Website</h3>
+            <h3>Galleria</h3>
             <ul>
-              <li>Created a styled multi-page website for a new player in the fashion industry and integrated it with a shopping cart, using stripe for payment gateway</li>
+              <li>A web application that allows multiple artists to showcase and sell their artwork.Developed with Python3, Flask framework, SQLAlchemy ORM, and Postgresql database for the backen d, and HTML, CSS, JavaScript, AJAX, JSON, Jinja2, and Bootstrap5 for the frontend.</li>
             </ul>
           </div>
     </div>
@@ -112,24 +134,21 @@
       <div class="all_recommendations" id="all_recommendations">
         <div class="recommendation">
           <span>&#8220;</span>
-          Jane is a very quick learner and quickly grasps key concepts of Web development. 
-          She got a great attitude & she is an excellent team player. 
-          She has a curious mind and asks the right question. 
-          She takes initiative within a team and has potentials to lead the team.
+          I have been a witness to Cecily's transitional journey into software development, 
+          where hard work and perseverance drove her to success. 
+          It has been a great pleasure to collaborate with Cecily!
           <span>&#8221;</span>
         </div>
         <div class="recommendation">
           <span>&#8220;</span>
-          Working with Jane has been an awesome experience. 
-          She is highly knowledgable and always goes the extra step to make sure everything is right. 
-          For any future projects that need her expertise I would definitely want to work with her again.
+          Cecily is technically sound and also a pro-active learner. 
+          She is a quick learner and is good at grasping skills. She is loyal and very reliable.
           <span>&#8221;</span>
         </div>
         <div class="recommendation">
           <span>&#8220;</span>
-          I had worked along with Jane during the initial phase of our venture which needed Web development. 
-          She is a committed resource who has in depth knowledge about the domain. 
-          She will be an asset for any organisation! 
+          I worked with Cecily for two years at Exep International. She is efficient, organized, and self-directed. 
+          Her debugging skills and in-depth understanding of Operating Systems were an asset to our team.
           <span>&#8221;</span>
         </div>
       </div>
@@ -152,12 +171,15 @@
     <div class="iconbutton">
       <a href="#home">
         <!--Add the code here for the logo to appear and the icon to be actionable-->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
       </a>
     </div>
 
     <div class="popup" id="popup" class="flex_center">
       <img src="html_finalprojimages/checkmark--outline.svg"/>
-      <h3><!-- Add appropriate text here--></h3>
+      <h3>Thank you for recommending😊!</h3>
       <button onclick="showPopup(false)">Ok</button>
     </div>
   </body>
